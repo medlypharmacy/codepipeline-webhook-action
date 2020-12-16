@@ -17,6 +17,7 @@ try {
       cache: 'no-cache',
       credentials: 'same-origin',
       headers: {
+        'Content-Type': 'application/json',
         'x-api-key': codepipelineWebhookSecret
       },
       redirect: 'follow',
